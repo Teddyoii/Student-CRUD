@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+	background-color: gray;
+	color: white;
+	font-family: poppins;
+}
+
+input {
+	width: 80%;
+	padding: 10px;
+	margin-left: 10%;
+}
+.heading {
+	display: flex;
+	justify-content: center;
+}
+
+.primary-btn {
+	cursor: pointer;
+	background-color: lightblue;
+	padding: 10px;
+	border: none;
+	transition: ease-in;
+	margin-left: 1%;
+}
+
+.danger {
+	background-color: red;
+	margin-left: 50%;
+	margin-top: 10px;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+}
+
+table {
+	margin-left: 40%;
+	margin-top: 3%;
+}
+
+table tr:first-child {
+	background-color: black;
+	width: 100%;
+}
